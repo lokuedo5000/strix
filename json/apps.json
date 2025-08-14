@@ -1,182 +1,164 @@
 [
-    {
-      id: 1,
-      name: "Photoshop",
-      category: "design",
-      icon: "🎨",
-      color: "linear-gradient(135deg, #667eea, #764ba2)",
-      description:
-        "Una herramienta avanzada de diseño que te ayuda a crear imágenes impresionantes.",
-      dependencies: ["Adobe Creative Suite", "Photoshop Elements"],
-    },
-    {
-      id: 2,
-      name: "VS Code",
-      category: "development",
-      icon: "💻",
-      color: "linear-gradient(135deg, #f093fb, #f5576c)",
-      description:
-        "Una herramienta avanzada de desarrollo que te ayuda a optimizar tu flujo de trabajo. Incluye funciones de debugging, análisis de rendimiento, y herramientas de testing integradas.",
-      dependencies: ["Node.js 16+", "React 18", "TypeScript", "Webpack 5"],
-    },
-    {
-      id: 3,
-      name: "Spotify",
-      category: "entertainment",
-      icon: "🎵",
-      color: "linear-gradient(135deg, #4facfe, #00f2fe)",
-      description:
-        "Una aplicación de música que te permite escuchar tus canciones favoritas en cualquier momento.",
-      dependencies: ["Spotify Premium"],
-    },
-    {
-      id: 4,
-      name: "Slack",
-      category: "productivity",
-      icon: "💬",
-      color: "linear-gradient(135deg, #a8edea, #fed6e3)",
-      description:
-        "Una herramienta de comunicación que te permite mantener en contacto con tu equipo.",
-      dependencies: ["Slack Workspace"],
-    },
-    {
-      id: 5,
-      name: "Figma",
-      category: "design",
-      icon: "🎯",
-      color: "linear-gradient(135deg, #667eea, #764ba2)",
-      description:
-        "Una herramienta de diseño colaborativo que te permite crear interfaces de usuario y prototipos.",
-      dependencies: ["Figma Cloud"],
-    },
-    {
-      id: 6,
-      name: "Chrome",
-      category: "productivity",
-      icon: "🌐",
-      color: "linear-gradient(135deg, #ffecd2, #fcb69f)",
-      description:
-        "Un navegador web que te permite acceder a cualquier sitio web en internet.",
-      dependencies: ["Google Account"],
-    },
-    {
-      id: 7,
-      name: "Discord",
-      category: "entertainment",
-      icon: "🎮",
-      color: "linear-gradient(135deg, #667eea, #764ba2)",
-      description:
-        "Una aplicación de chat que te permite comunicarte con tus amigos y compañeros de equipo.",
-      dependencies: ["Discord Account"],
-    },
-    {
-      id: 8,
-      name: "Notion",
-      category: "productivity",
-      icon: "📝",
-      color: "linear-gradient(135deg, #f093fb, #f5576c)",
-      description:
-        "Una herramienta de gestión de proyectos que te permite organizar tus tareas y proyectos.",
-      dependencies: ["Notion Workspace"],
-    },
-    {
-      id: 9,
-      name: "GitHub",
-      category: "development",
-      icon: "🐙",
-      color: "linear-gradient(135deg, #4facfe, #00f2fe)",
-      description:
-        "Una plataforma de desarrollo colaborativo que te permite compartir y gestionar tu código.",
-      dependencies: ["GitHub Account"],
-    },
-    {
-      id: 10,
-      name: "Netflix",
-      category: "entertainment",
-      icon: "🎬",
-      color: "linear-gradient(135deg, #a8edea, #fed6e3)",
-      description:
-        "Una aplicación de streaming que te permite ver tus películas y series favoritas en cualquier momento.",
-      dependencies: ["Netflix Account"],
-    },
-    {
-      id: 11,
-      name: "Illustrator",
-      category: "design",
-      icon: "✨",
-      color: "linear-gradient(135deg, #ffecd2, #fcb69f)",
-      description:
-        "Una herramienta de diseño vectorial que te permite crear ilustraciones y gráficos profesionales.",
-      dependencies: ["Adobe Creative Suite"],
-    },
-    {
-      id: 12,
-      name: "Docker",
-      category: "development",
-      icon: "🐳",
-      color: "linear-gradient(135deg, #667eea, #764ba2)",
-      description:
-        "Una plataforma de contenedores que te permite desarrollar y desplegar aplicaciones de manera eficiente.",
-      dependencies: ["Docker Desktop"],
-    },
-    {
-      id: 13,
-      name: "Trello",
-      category: "productivity",
-      icon: "📋",
-      color: "linear-gradient(135deg, #f093fb, #f5576c)",
-      description:
-        "Una herramienta de gestión de proyectos que te permite organizar tus tareas y proyectos.",
-      dependencies: ["Trello Account"],
-    },
-    {
-      id: 14,
-      name: "YouTube",
-      category: "entertainment",
-      icon: "📺",
-      color: "linear-gradient(135deg, #4facfe, #00f2fe)",
-      description:
-        "Una plataforma de video que te permite ver tus videos favoritos en cualquier momento.",
-      dependencies: ["YouTube Account"],
-    },
-    {
-      id: 15,
-      name: "Sketch",
-      category: "design",
-      icon: "🎨",
-      color: "linear-gradient(135deg, #a8edea, #fed6e3)",
-      description:
-        "Una herramienta de diseño vectorial que te permite crear ilustraciones y gráficos profesionales.",
-      dependencies: ["Sketch Cloud"],
-    },
-    {
-      id: 16,
-      name: "Blender",
-      category: "design",
-      icon: "🎭",
-      color: "linear-gradient(135deg, #667eea, #764ba2)",
-      description:
-        "Una herramienta de modelado 3D que te permite crear animaciones y modelos de alta calidad.",
-      dependencies: ["Blender Cloud"],
-    },
-    {
-      id: 17,
-      name: "Postman",
-      category: "development",
-      icon: "📮",
-      color: "linear-gradient(135deg, #f093fb, #f5576c)",
-      description:
-        "Una herramienta de pruebas de API que te permite probar y documentar tus APIs de manera eficiente.",
-      dependencies: ["Postman Account"],
-    },
-    {
-      id: 18,
-      name: "Twitch",
-      category: "entertainment",
-      icon: "📡",
-      color: "linear-gradient(135deg, #4facfe, #00f2fe)",
-      description:
-        "Una plataforma de streaming que te permite ver y transmitir tus juegos en vivo.",
-      dependencies: ["Twitch Account"],
-    },
-  ]
+  {
+    "id": 1,
+    "name": "Photoshop",
+    "category": "design",
+    "icon": "🎨",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una herramienta avanzada de diseño que te ayuda a crear imágenes impresionantes.",
+    "dependencies": ["Adobe Creative Suite", "Photoshop Elements"]
+  },
+  {
+    "id": 2,
+    "name": "VS Code",
+    "category": "development",
+    "icon": "💻",
+    "color": "linear-gradient(135deg, #f093fb, #f5576c)",
+    "description": "Una herramienta avanzada de desarrollo que te ayuda a optimizar tu flujo de trabajo. Incluye funciones de debugging, análisis de rendimiento, y herramientas de testing integradas.",
+    "dependencies": ["Node.js 16+", "React 18", "TypeScript", "Webpack 5"]
+  },
+  {
+    "id": 3,
+    "name": "Spotify",
+    "category": "entertainment",
+    "icon": "🎵",
+    "color": "linear-gradient(135deg, #4facfe, #00f2fe)",
+    "description": "Una aplicación de música que te permite escuchar tus canciones favoritas en cualquier momento.",
+    "dependencies": ["Spotify Premium"]
+  },
+  {
+    "id": 4,
+    "name": "Slack",
+    "category": "productivity",
+    "icon": "💬",
+    "color": "linear-gradient(135deg, #a8edea, #fed6e3)",
+    "description": "Una herramienta de comunicación que te permite mantener en contacto con tu equipo.",
+    "dependencies": ["Slack Workspace"]
+  },
+  {
+    "id": 5,
+    "name": "Figma",
+    "category": "design",
+    "icon": "🎯",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una herramienta de diseño colaborativo que te permite crear interfaces de usuario y prototipos.",
+    "dependencies": ["Figma Cloud"]
+  },
+  {
+    "id": 6,
+    "name": "Chrome",
+    "category": "productivity",
+    "icon": "🌐",
+    "color": "linear-gradient(135deg, #ffecd2, #fcb69f)",
+    "description": "Un navegador web que te permite acceder a cualquier sitio web en internet.",
+    "dependencies": ["Google Account"]
+  },
+  {
+    "id": 7,
+    "name": "Discord",
+    "category": "entertainment",
+    "icon": "🎮",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una aplicación de chat que te permite comunicarte con tus amigos y compañeros de equipo.",
+    "dependencies": ["Discord Account"]
+  },
+  {
+    "id": 8,
+    "name": "Notion",
+    "category": "productivity",
+    "icon": "📝",
+    "color": "linear-gradient(135deg, #f093fb, #f5576c)",
+    "description": "Una herramienta de gestión de proyectos que te permite organizar tus tareas y proyectos.",
+    "dependencies": ["Notion Workspace"]
+  },
+  {
+    "id": 9,
+    "name": "GitHub",
+    "category": "development",
+    "icon": "🐙",
+    "color": "linear-gradient(135deg, #4facfe, #00f2fe)",
+    "description": "Una plataforma de desarrollo colaborativo que te permite compartir y gestionar tu código.",
+    "dependencies": ["GitHub Account"]
+  },
+  {
+    "id": 10,
+    "name": "Netflix",
+    "category": "entertainment",
+    "icon": "🎬",
+    "color": "linear-gradient(135deg, #a8edea, #fed6e3)",
+    "description": "Una aplicación de streaming que te permite ver tus películas y series favoritas en cualquier momento.",
+    "dependencies": ["Netflix Account"]
+  },
+  {
+    "id": 11,
+    "name": "Illustrator",
+    "category": "design",
+    "icon": "✨",
+    "color": "linear-gradient(135deg, #ffecd2, #fcb69f)",
+    "description": "Una herramienta de diseño vectorial que te permite crear ilustraciones y gráficos profesionales.",
+    "dependencies": ["Adobe Creative Suite"]
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+    "category": "development",
+    "icon": "🐳",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una plataforma de contenedores que te permite desarrollar y desplegar aplicaciones de manera eficiente.",
+    "dependencies": ["Docker Desktop"]
+  },
+  {
+    "id": 13,
+    "name": "Trello",
+    "category": "productivity",
+    "icon": "📋",
+    "color": "linear-gradient(135deg, #f093fb, #f5576c)",
+    "description": "Una herramienta de gestión de proyectos que te permite organizar tus tareas y proyectos.",
+    "dependencies": ["Trello Account"]
+  },
+  {
+    "id": 14,
+    "name": "YouTube",
+    "category": "entertainment",
+    "icon": "📺",
+    "color": "linear-gradient(135deg, #4facfe, #00f2fe)",
+    "description": "Una plataforma de video que te permite ver tus videos favoritos en cualquier momento.",
+    "dependencies": ["YouTube Account"]
+  },
+  {
+    "id": 15,
+    "name": "Sketch",
+    "category": "design",
+    "icon": "🎨",
+    "color": "linear-gradient(135deg, #a8edea, #fed6e3)",
+    "description": "Una herramienta de diseño vectorial que te permite crear ilustraciones y gráficos profesionales.",
+    "dependencies": ["Sketch Cloud"]
+  },
+  {
+    "id": 16,
+    "name": "Blender",
+    "category": "design",
+    "icon": "🎭",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una herramienta de modelado 3D que te permite crear animaciones y modelos de alta calidad.",
+    "dependencies": ["Blender Cloud"]
+  },
+  {
+    "id": 17,
+    "name": "Postman",
+    "category": "development",
+    "icon": "📮",
+    "color": "linear-gradient(135deg, #f093fb, #f5576c)",
+    "description": "Una herramienta de pruebas de API que te permite probar y documentar tus APIs de manera eficiente.",
+    "dependencies": ["Postman Account"]
+  },
+  {
+    "id": 18,
+    "name": "Twitch",
+    "category": "entertainment",
+    "icon": "📡",
+    "color": "linear-gradient(135deg, #4facfe, #00f2fe)",
+    "description": "Una plataforma de streaming que te permite ver y transmitir tus juegos en vivo.",
+    "dependencies": ["Twitch Account"]
+  }
+]
