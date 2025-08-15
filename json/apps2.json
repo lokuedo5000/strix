@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Blender",
+    "category": "design",
+    "icon": "🎭",
+    "color": "linear-gradient(135deg, #667eea, #764ba2)",
+    "description": "Una herramienta de modelado 3D que te permite crear animaciones y modelos de alta calidad.",
+    "dependencies": ["Blender Cloud"]
+  },
+  {
+    "id": 2,
+    "name": "Postman",
+    "category": "development",
+    "icon": "📮",
+    "color": "linear-gradient(135deg, #f093fb, #f5576c)",
+    "description": "Una herramienta de pruebas de API que te permite probar y documentar tus APIs de manera eficiente.",
+    "dependencies": ["Postman Account"]
+  },
+  {
+    "id": 3,
+    "name": "Twitch",
+    "category": "entertainment",
+    "icon": "📡",
+    "color": "linear-gradient(135deg, #4facfe, #00f2fe)",
+    "description": "Una plataforma de streaming que te permite ver y transmitir tus juegos en vivo.",
+    "dependencies": ["Twitch Account"]
+  }
+]
